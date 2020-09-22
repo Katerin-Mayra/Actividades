@@ -26,6 +26,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="#E1E1E1"
             android:orientation="horizontal">
 
 
@@ -34,13 +35,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Actividad 1" />
+                android:background="#634488"
+                android:text="Actividad 1"
+                android:textColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/btn2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="#AFAFB5"
                 android:text="Actividad 2" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -60,6 +64,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="#DCDCDC"
             android:orientation="horizontal">
 
             <Button
@@ -67,6 +72,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="#B7B7BC"
                 android:text="Actividad 3" />
 
             <Button
@@ -74,7 +80,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Actividad 4" />
+                android:background="#6B4995"
+                android:text="Actividad 4"
+                android:textColor="#F6F5F5" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
